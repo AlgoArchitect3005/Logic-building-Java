@@ -35,7 +35,7 @@ public class Merge_two_sortedList_004 {
 public static void printList(Node head){
     Node current = head;
     while(current != null){
-        System.out.println(current.data +" -> ");
+        System.out.print(current.data +" -> ");
         current = current.next;
     }
 }
@@ -48,7 +48,7 @@ public static void printList(Node head){
         // Creating second sorted linked list
         Node head2 = new Node(12);
         head2.next =new Node(13);
-        head2.next.next = new Node(17);
+        head2.next.next = new Node(15);
 
         Node mergedHead = mergeList(head1, head2);
         printList(mergedHead);
