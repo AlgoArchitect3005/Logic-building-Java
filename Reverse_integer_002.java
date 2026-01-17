@@ -5,12 +5,12 @@ public class Reverse_integer_002 {
         System.out.print("Enter an integer: ");
         int num = sc.nextInt();
         sc.close();
-        int reversedNum = 0;
+        int reversedNumber = 0;
         while(num !=0){
             int digit = num %10;
-            reversedNum = reversedNum *10 +digit ;
+            reversedNumber = reversedNumber *10 +digit ;
             num /=10;
         }
-        System.out.println("Reversed integer: " + reversedNum);
+        System.out.println("Reversed integer: " + reversedNumber);
     }
 }
