@@ -7,6 +7,7 @@ public class Merge_two_sortedList_004 {
             this.next = null;
         }
     }
+    // Method to merge two sorted linked lists
     public static Node mergeList(Node head1 , Node head2){
         Node dummy = new Node(-1);
         Node tail = dummy;
