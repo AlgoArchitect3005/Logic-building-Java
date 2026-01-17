@@ -7,6 +7,9 @@ public class Sum_of_digit_005 {
         int sum =0;
         while(number !=0){
             int digit = number %10;
+            number /=10;
+            sum +=digit;
         }
+        System.out.println("Sum of digits: " + sum);
     }
 }
