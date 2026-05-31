@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class DestroyingAsteroids {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Destroyer solution = new Destroyer();
         int mass = 10;
         int[] asteroids = {3, 9, 19, 5, 21};
         try {
@@ -20,7 +20,7 @@ public class DestroyingAsteroids {
     
 }
 
-class Solution {
+class Destroyer {
     public boolean asteroidsDestroyed(int mass, int[] asteroids) {
             Arrays.sort(asteroids);
            Long currentMass = Long.valueOf(mass);
